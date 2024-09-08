@@ -17,9 +17,7 @@ const[isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
     <div>
-      
-      
-      <div className="bg-slate-900">
+     <div className="bg-slate-900">
         <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
       </div>
 
